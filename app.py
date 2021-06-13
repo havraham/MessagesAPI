@@ -36,6 +36,3 @@ api.add_resource(UnreadMesseages, '/messages/unread')
 api.add_resource(Message, '/messages/<id>')
 api.add_resource(Login, '/login')
 api.add_resource(Register, '/register')
-
-if __name__ == '__main__':
-    app.run()
