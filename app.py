@@ -36,3 +36,7 @@ api.add_resource(UnreadMesseages, '/messages/unread')
 api.add_resource(Message, '/messages/<id>')
 api.add_resource(Login, '/login')
 api.add_resource(Register, '/register')
+
+@app.route("/")
+def home_view():
+        return "<h1>Welcome to Messages api</h1>"
